@@ -13,7 +13,7 @@ class ContactManager {
     }
   }
 
-  // * The stream of int(the number of contacts) listen to the CONTACTS stream
+  // * The stream of int (the number of contacts) listen to the CONTACTS stream
   StreamController<int> _contactCounter = StreamController<int>();
   Stream<int> get contactCounter => _contactCounter.stream;
   ContactManager() {
